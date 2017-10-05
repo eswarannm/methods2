@@ -96,20 +96,20 @@ describe 'methods2' do
 
 	end
 
-	# describe 'fizz_string' do
-	# 	it 'Just Fizz' do
-	# 		fizz_string("Friend").must_equal("Fizz")
-	# 	end
+	describe 'fizz_string' do
+		it 'Just Fizz' do
+			fizz_string("Friend").must_equal("Fizz")
+		end
 
-	# 	it 'Just Buzz' do
-	# 		fizz_string("Bob").must_equal("Buzz")
-	# 	end
-	# 	it 'Both Fizz Buzz' do
-	# 		fizz_string("Friendbob").must_equal("FizzBuzz")
-	# 	end
+		it 'Just Buzz' do
+			fizz_string("Bob").must_equal("Buzz")
+		end
+		it 'Both Fizz Buzz' do
+			fizz_string("Friendbob").must_equal("FizzBuzz")
+		end
 
 
-	# end
+	end
 
 	# describe 'first_last_six' do
 

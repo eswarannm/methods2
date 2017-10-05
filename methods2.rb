@@ -119,23 +119,23 @@ def less_by_ten? (a,b,c)
 end
 
 # # TODO - write fizz_string
-# def fizz_string (string)
+def fizz_string (string)
 
-# 	if string[0] == "f" || string[0] == "F" 
-# 		if string[(-1)] == "b" || string[(-1)] == "B"
-# 			return "FizzBuzz"
-# 		end
-# 	end
+	if string[0] == "f" || string[0] == "F" 
+		if string[(-1)] == "b" || string[(-1)] == "B"
+			return "FizzBuzz"
+		end
+	end
 
-# 	if string[0] == "f" || string[0] == "F"
-# 		return "Fizz"
-# 	end
+	if string[0] == "f" || string[0] == "F"
+		return "Fizz"
+	end
 
-# 	if string[(-1)] == "b" || string[(-1)] == "B"
-# 		return "Buzz"
-# 	end
+	if string[(-1)] == "b" || string[(-1)] == "B"
+		return "Buzz"
+	end
 
-# end
+end
 
 # # TODO - write first_last_six?
 
