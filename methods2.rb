@@ -158,20 +158,20 @@ end
 
 # # TODO - write double23?
 
-# def double23?(array)
-# 	a = array[0]
-# 	b = array[1]
-# 	c = array[2]
+def double23?(array)
+	a = array[0]
+	b = array[1]
+	c = array[2]
 
-# 	if a == 2 && b == 2 || a == 3 && b == 3
-# 		return true
-# 	end
+	if a == 2 && b == 2 || a == 3 && b == 3
+		return true
+	end
 
-# 	if c == 2 && b == 2 || c == 3 && b == 3
-# 		return true
-# 	end
+	if c == 2 && b == 2 || c == 3 && b == 3
+		return true
+	end
 
-# 	return false
+	return false
 
-# end
+end
 

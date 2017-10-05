@@ -146,32 +146,32 @@ describe 'methods2' do
 
 	end
 
-	# describe 'double23?' do
-	# 	it '1' do
-	# 		double23?([1]).must_equal(false)
-	# 	end
+	describe 'double23?' do
+		it '1' do
+			double23?([1]).must_equal(false)
+		end
 
-	# 	it '2 twice' do
-	# 		double23?([2,2]).must_equal(true)
-	# 	end
+		it '2 twice' do
+			double23?([2,2]).must_equal(true)
+		end
 
-	# 	it '3 twice' do
-	# 		double23?([3,3]).must_equal(true)
-	# 	end
+		it '3 twice' do
+			double23?([3,3]).must_equal(true)
+		end
 
-	# 	it 'empty' do
-	# 		double23?([]).must_equal(false)
-	# 	end
+		it 'empty' do
+			double23?([]).must_equal(false)
+		end
 
-	# 	it '0' do
-	# 		double23?([0]).must_equal(false)
-	# 	end
+		it '0' do
+			double23?([0]).must_equal(false)
+		end
 
-	# 	it 'false' do
-	# 		double23?([2,3]).must_equal(false)
-	# 	end
+		it 'false' do
+			double23?([2,3]).must_equal(false)
+		end
 
-	# end
+	end
 
 end
 
