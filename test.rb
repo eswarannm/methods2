@@ -130,21 +130,21 @@ describe 'methods2' do
 		end
 	end
 
-	# describe 'rotate_left' do
+	describe 'rotate_left' do
 
-	# 	it '6,0,3' do
-	# 		rotate_left([6,0,3]).must_equal([0,3,6])
-	# 	end
+		it '6,0,3' do
+			rotate_left([6,0,3]).must_equal([0,3,6])
+		end
 
-	# 	it '0,5,203' do
-	# 		rotate_left([0,5,203]).must_equal([5,203,0])
-	# 	end
+		it '0,5,203' do
+			rotate_left([0,5,203]).must_equal([5,203,0])
+		end
 
-	# 	it '6,6,6' do
-	# 		rotate_left([6,6,6]).must_equal([6,6,6])
-	# 	end
+		it '6,6,6' do
+			rotate_left([6,6,6]).must_equal([6,6,6])
+		end
 
-	# end
+	end
 
 	# describe 'double23?' do
 	# 	it '1' do

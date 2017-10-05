@@ -148,13 +148,13 @@ def first_last_six?(array)
 end
 # # TODO - write rotate_left
 
-# def rotate_left(trio)
-# 	a = trio[0]
-# 	b = trio[1]
-# 	c = trio[2]
+def rotate_left(trio)
+	a = trio[0]
+	b = trio[1]
+	c = trio[2]
 
-# 	return [b,c,a]
-# end
+	return [b,c,a]
+end
 
 # # TODO - write double23?
 
