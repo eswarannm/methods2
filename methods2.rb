@@ -83,21 +83,21 @@ end
 
 # # TODO - write ticket
 
-# def ticket (a, b, c)
-# 	ab = a + b
-# 	bc = b + c
-# 	ac = a + c
+def ticket (a, b, c)
+	ab = a + b
+	bc = b + c
+	ac = a + c
 
-# 	if ab == 10 || bc == 10 || ac == 10
-# 		return 10
-# 	end
+	if ab == 10 || bc == 10 || ac == 10
+		return 10
+	end
 
-# 	if (ab == 10 + bc) || (ab == 10 + ac) 
-# 		return  5
-# 	end
+	if (ab == 10 + bc) || (ab == 10 + ac) 
+		return  5
+	end
 
-# 	return 0
-# end
+	return 0
+end
 
 # # TODO - write in_order?
 # def in_order (a,b,c,bOK)

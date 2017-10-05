@@ -53,20 +53,20 @@ describe 'methods2' do
 
 	end
 
-	# describe 'ticket' do
-	# 	it 'win lottery' do
-	# 		ticket(3,7,1).must_equal(10)
-	# 	end
+	describe 'ticket' do
+		it 'win lottery' do
+			ticket(3,7,1).must_equal(10)
+		end
 
-	# 	it 'win half' do
-	# 		ticket(12,4,2).must_equal(5)
-	# 	end
+		it 'win half' do
+			ticket(12,4,2).must_equal(5)
+		end
 
-	# 	it 'lose lottery' do
-	# 		ticket(1,1,1).must_equal(0)
-	# 	end
+		it 'lose lottery' do
+			ticket(1,1,1).must_equal(0)
+		end
 
-	# end
+	end
 
 	# describe 'in_order' do
 	# 	it 'order false' do
