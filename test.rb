@@ -85,16 +85,16 @@ describe 'methods2' do
 		end
 	end
 
-	# describe 'less_by_ten?' do
-	# 	it 'true' do
-	# 		less_by_ten?(2,12,17).must_equal(true)
-	# 	end
+	describe 'less_by_ten?' do
+		it 'true' do
+			less_by_ten?(2,12,17).must_equal(true)
+		end
 
-	# 	it 'false' do
-	# 		less_by_ten?(2,3,4).must_equal(false)
-	# 	end
+		it 'false' do
+			less_by_ten?(2,3,4).must_equal(false)
+		end
 
-	# end
+	end
 
 	# describe 'fizz_string' do
 	# 	it 'Just Fizz' do

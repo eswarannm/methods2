@@ -113,10 +113,10 @@ def in_order (a,b,c,bOK)
 end
 
 # # TODO - write less_by_ten?
-# def less_by_ten? (a,b,c)
-# 	return a - b >= 10 || b - a >= 10 || b - c >= 10 || c - b >= 10 || c - a >= 10 || a - c >= 10 
+def less_by_ten? (a,b,c)
+	return a - b >= 10 || b - a >= 10 || b - c >= 10 || c - b >= 10 || c - a >= 10 || a - c >= 10 
 
-# end
+end
 
 # # TODO - write fizz_string
 # def fizz_string (string)
