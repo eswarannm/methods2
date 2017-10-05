@@ -100,17 +100,17 @@ def ticket (a, b, c)
 end
 
 # # TODO - write in_order?
-# def in_order (a,b,c,bOK)
+def in_order (a,b,c,bOK)
 
-# 	if bOK && c > b
-# 		return true
-# 	elsif b > a && c > b 
-# 		return true
-# 	end
+	if bOK && c > b
+		return true
+	elsif b > a && c > b 
+		return true
+	end
 
-# 	return false
+	return false
 		
-# end
+end
 
 # # TODO - write less_by_ten?
 # def less_by_ten? (a,b,c)

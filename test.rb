@@ -68,22 +68,22 @@ describe 'methods2' do
 
 	end
 
-	# describe 'in_order' do
-	# 	it 'order false' do
-	# 		in_order(4,7,6,false).must_equal(false)
-	# 	end
+	describe 'in_order' do
+		it 'order false' do
+			in_order(4,7,6,false).must_equal(false)
+		end
 
-	# 	it 'order true' do
-	# 		in_order(4,3,10,true).must_equal(true)
-	# 	end
+		it 'order true' do
+			in_order(4,3,10,true).must_equal(true)
+		end
 
-	# 	it 'no order, true' do
-	# 		in_order(10,9,3,true).must_equal(false)
-	# 	end
-	# 	it 'no order, false' do
-	# 		in_order(7,4,9,false).must_equal(false)
-	# 	end
-	# end
+		it 'no order, true' do
+			in_order(10,9,3,true).must_equal(false)
+		end
+		it 'no order, false' do
+			in_order(7,4,9,false).must_equal(false)
+		end
+	end
 
 	# describe 'less_by_ten?' do
 	# 	it 'true' do
