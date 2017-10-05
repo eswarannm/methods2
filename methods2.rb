@@ -51,36 +51,35 @@ end
 
 # # TODO - write successful_squirrel_party?
 
-# def successful_squirrel_party? (nuts, is_weekend)
-# 	if nuts > 40 
-# 		if nuts < 60
-# 			if is_weekend == false
-# 				return true
-# 			end
-# 		end
-# 	end
+def successful_squirrel_party? (nuts, is_weekend)
+	if nuts > 40 
+		if nuts < 60
+			if is_weekend == false
+				return true
+			end
+		end
+	end
+
+	if nuts > 40 
+		if is_weekend == true
+			return true
+		end
+	end
+
+	if nuts < 40
+		if is_weekend == true
+			return false
+		end
+	end
+
+	if nuts < 40 || nuts > 60
+			if is_weekend == false
+				return false
+			end
+	end
 
 
-# 	if nuts > 40 
-# 		if is_weekend == true
-# 			return true
-# 		end
-# 	end
-
-# 	if nuts < 40
-# 		if is_weekend == true
-# 			return false
-# 		end
-# 	end
-
-# 	if nuts < 40 || nuts > 60
-# 			if is_weekend == false
-# 				return false
-# 			end
-# 	end
-
-
-# end
+end
 
 # # TODO - write ticket
 

@@ -34,24 +34,24 @@ describe 'methods2' do
 
 	end
 
-	# describe 'successful_squirrel_party?' do
-	# 	it 'good party weekday' do
-	# 		successful_squirrel_party?(45,false).must_equal(true)
-	# 	end
+	describe 'successful_squirrel_party?' do
+		it 'good party weekday' do
+			successful_squirrel_party?(45,false).must_equal(true)
+		end
 
-	# 	it 'bad party weekday' do
-	# 		successful_squirrel_party?(30,false).must_equal(false)
-	# 	end
+		it 'bad party weekday' do
+			successful_squirrel_party?(30,false).must_equal(false)
+		end
 
-	# 	it 'good party weekend' do
-	# 		successful_squirrel_party?(80,true).must_equal(true)
-	# 	end
+		it 'good party weekend' do
+			successful_squirrel_party?(80,true).must_equal(true)
+		end
 
-	# 	it 'bad party weeked' do
-	# 		successful_squirrel_party?(30,true).must_equal(false)
-	# 	end
+		it 'bad party weeked' do
+			successful_squirrel_party?(30,true).must_equal(false)
+		end
 
-	# end
+	end
 
 	# describe 'ticket' do
 	# 	it 'win lottery' do
