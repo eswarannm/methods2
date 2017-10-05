@@ -111,24 +111,24 @@ describe 'methods2' do
 
 	end
 
-	# describe 'first_last_six' do
+	describe 'first_last_six' do
 
-	# 	it 'first six' do
-	# 		first_last_six?([6,0,3,7,4,6,4,3]).must_equal(true)
-	# 	end
+		it 'first six' do
+			first_last_six?([6,0,3,7,4,6,4,3]).must_equal(true)
+		end
 
-	# 	it 'last six' do
-	# 		first_last_six?([0,5,203,45,6]).must_equal(true)
-	# 	end
+		it 'last six' do
+			first_last_six?([0,5,203,45,6]).must_equal(true)
+		end
 
-	# 	it 'Both first and last' do
-	# 		first_last_six?([6,6,6,6,6,6,6,6,6,6]).must_equal(true)
-	# 	end
+		it 'Both first and last' do
+			first_last_six?([6,6,6,6,6,6,6,6,6,6]).must_equal(true)
+		end
 
-	# 	it 'neither first and last' do
-	# 		first_last_six?([2,3,5,3,23,4,3,2,3]).must_equal(false)
-	# 	end
-	# end
+		it 'neither first and last' do
+			first_last_six?([2,3,5,3,23,4,3,2,3]).must_equal(false)
+		end
+	end
 
 	# describe 'rotate_left' do
 

@@ -139,13 +139,13 @@ end
 
 # # TODO - write first_last_six?
 
-# def first_last_six?(array)
-# 	if array[0] == 6 || array[(-1)] == 6
-# 		return true
-# 	end
+def first_last_six?(array)
+	if array[0] == 6 || array[(-1)] == 6
+		return true
+	end
 
-# 	return false
-# end
+	return false
+end
 # # TODO - write rotate_left
 
 # def rotate_left(trio)
