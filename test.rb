@@ -19,20 +19,20 @@ describe 'methods2' do
 
 	end
 
-	# describe 'ice_cream_party' do
-	# 	it 'bad party' do
-	# 		ice_cream_party(1,3).must_equal(0)
-	# 	end
+	describe 'ice_cream_party' do
+		it 'bad party' do
+			ice_cream_party(1,3).must_equal(0)
+		end
 
-	# 	it 'good party' do
-	# 		ice_cream_party(4,3).must_equal(1)
-	# 	end
+		it 'good party' do
+			ice_cream_party(4,3).must_equal(1)
+		end
 
-	# 	it 'great party' do
-	# 		ice_cream_party(7,9).must_equal(2)
-	# 	end
+		it 'great party' do
+			ice_cream_party(7,9).must_equal(2)
+		end
 
-	# end
+	end
 
 	# describe 'successful_squirrel_party?' do
 	# 	it 'good party weekday' do

@@ -32,22 +32,22 @@ end
 	
 # TODO - write ice_cream_party?
 
-# def ice_cream_party(ice_cream, candy)
-# 	if ice_cream + candy < 5
-# 		return 	0
-# 	end
+def ice_cream_party(ice_cream, candy)
+	if ice_cream + candy < 5
+		return 	0
+	end
 
-# 	if ice_cream + candy > 5
-# 		if ice_cream + candy < 10
-# 			return 1
-# 		end
-# 	end
+	if ice_cream + candy > 5
+		if ice_cream + candy < 10
+			return 1
+		end
+	end
 
-# 	if ice_cream + candy > 10 
-# 		return 2
-# 	end
+	if ice_cream + candy > 10 
+		return 2
+	end
 
-# end
+end
 
 # # TODO - write successful_squirrel_party?
 
